@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pattern Trainer</title>
+    <script>
+      var base = '/pattern-tracker1';
+      var path = window.location.pathname;
+      var next = path.startsWith(base) ? path.slice(base.length) : path;
+      window.location.replace(base + '/?redirect=' + encodeURIComponent(next + window.location.search + window.location.hash));
+    </script>
+  </head>
+  <body></body>
+</html>
