@@ -2,6 +2,7 @@
 
 Pattern Trainer is a mobile-friendly React + TypeScript learning app for coding interview pattern recognition, Java-first explanations, flashcard quizzes, and scripted algorithm visualizers.
 
+
 ## Run Locally
 
 ```bash
